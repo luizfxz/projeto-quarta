@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+
+    background-color: rgb(252, 220, 0);
+
+}
+
+header {
+
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 130px;
+    position: sticky;
+    top: 0;
+
+}
+
+img {
+
+    margin-left: 15px;
+    height: 100px;
+    width: 250px;
+}
+
+.header_util {
+    
+    height: 100px;
+    width: 720px;
+    float: right;
+
+}
+
+.header_util > a {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-top: 50px;
+    text-decoration: none;    
+
+}
+
+a:visited {
+
+    text-decoration: none;
+
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+h1 {
+
+    margin-top: 100px;
+    font-family: 'Kanit';
+    font-size: 90px;
+    text-align: center;
+    font-weight: 600;
+
+}
+h2 {
+
+    text-align: center;
+    font-family: 'Kanit';
+    
+
+}
+.nomes_int {
+
+    text-align: center;
+    padding-top: 100px;
+    
+
+}
+
+.nomes_int > p {
+
+
+    font-family: 'Kanit';
+    font-size: 26px;
+    padding-top: 5px;
+
+}
+
+
+button {
+
+    background-color: black;
+    color: rgb(252, 220, 0);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Kanit';
+    border-radius: 35px;
+    width: 300px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+
+
+
+
+
