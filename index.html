@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <script type="text/javascript" src="javascript/primeiro_topic.js"></script>
+    <script type="text/javascript" src="javascript/first_topic.js"></script>
+    <script type="text/javascript" src="javascript/confirmbox.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -20,9 +21,13 @@
 
             <a href="#surg">Como surgiu?</a> <!-- surg == surgimento -->
 
-            <a href="#use">Java vs JavaScript</a> <!-- use == usar -->
+            <a href="#vant">Vantagens e desvantagens </a>
 
-            <a href="#vand">Vantagens e desvantagens</a>  <!-- vand == vantagens e desvantagens -->
+            <a href="#pop">Pop-ups</a> <!-- pop == pop up -->
+
+            <a href="#ins">Inserção do JS</a>  <!-- inserção js -->
+
+            <a href="#sintax">Sintaxe</a>  <!-- inserção js -->
         
         
         </div>
@@ -52,10 +57,217 @@
 
         </div>
 
-        <h2>Prontos para aprender JavaScript?</h2>
+        <h2 class="title_ini">Prontos para aprender JavaScript?</h2>
 
 
-        <button onclick="primeiro_topic()"> Iniciar apresentação! </button>
+        <button> Iniciar apresentação!</button>
+
+
+        <div class="js_def">
+
+            <h2 id="def">O que é o JavaScript? </h2>
+
+            <p>
+                
+                • É uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular
+                comportamentos de páginas web.
+            
+            </p>
+
+            <p>
+
+                • JavaScript, originalmente, é uma linguagem de programação client-side, ou seja, é executada do lado do usuário, mais
+                especificamente pelo navegador utilizado por este usuário.
+
+            </p>
+
+        </div>
+
+        <div class="js_surg">
+
+            <h2 id="surg"> Como surgiu? </h2>
+
+            <p>
+                
+                • A linguagem de programação Java Script foi criada no ano de 1995 pelo programador Brendan Eich, que na época trabalhava para o grande navegador Netscape;
+            
+            </p>
+
+            
+
+            <p>
+
+                • No início a linguagem foi batizada com alguns nomes inclusive Live Script, mas depois de um tempo a Netscape teve o auxílio da empresa SUN Microsystems para o desenvolvimento da linguagem. Depois disso a linguagem ficou conhecida por JavaScript, mais por questões estratégicas.
+
+            </p>  
+
+            <p>
+
+                • A organização Microsoft vendo tudo isso então achou uma boa ideia que em vez de auxiliar no desenvolvimento da linguagem, criar uma linguagem em paralelo, a JScript, mas a linguagem rodava somente no Internet Explorer.
+
+            </p>
+
+            <p> 
+                • Em 1996 a organização Netscape decidiu se juntar a ECMA Internacional (Associação Europeia dos Fabricantes de computadores)
+                com o objetivo de padronizar a linguagem de modo que ela funcione em todos os navegadores.
+            
+            </p>
+
+        </div>
+
+        <div class="js_vant">
+
+            <h2 id="vant"> Vantagens e desvantagens </h2>
+
+            <h3>
+                
+                Vantagens
+                
+            </h3>
+            
+                <p> 
+
+                    • Facilidade de aprendizado; 
+
+                </p>
+
+                <p> 
+
+                    • Não tem a necessidade de um compilador pois os navegadores interpretam a linguagem por conta própria; 
+
+                </p>
+
+                <p> 
+
+                    • Javascript é mais leve e responde mais rápido que outras linguagens;
+
+                </p>
+
+                <p> 
+
+                    • Ele é compatível com quase todos os navegadores;
+
+                </p>
+
+                <p> 
+                    
+                    • Executa comportamentos específicos em uma página, como cliques e efeitos personalizados;
+                
+                </p>
+
+                <p> 
+                    
+                    • JavaScript é gratuito.
+                
+                </p>
+         
+            <h3>
+
+                Desvantagens
+
+            </h3>
+
+                <p>
+                    
+                    • Visível
+                
+                </p>
+
+                <p>
+                    
+                    • Possuí Vulnerabilidade
+                
+                </p>
+
+                <p>
+                    
+                    • Riscos
+                
+                </p>
+
+                <p>
+                    
+                    • Não compatível
+                
+                </p>
+
+                <p>
+                    
+                    • Reiniciar
+                
+                </p>
+             
+
+
+        </div>
+
+        <div class="js_pop">
+
+            <h2 id="pop"> Pop-ups </h2>
+
+            <p>
+
+                Pop-up é uma janela que abre no navegador da internet quando se acessa uma página na web ou algum link de redirecionamento. Normalmente, esta nova janela apresenta informações de destaque do site, ou publicidades e anúncios.
+
+            </p>
+
+            <div class="pop_confirm">                
+               
+                <form>
+
+                    Clique no Botão abaixo para ir para o Site do Google:
+
+                    <input value="Clique aqui para abrir o site do Google" onclick="confirmBox()" type="button"> 
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="js_ins">
+
+            <h2 id="ins"> Inserção do JavaScript </h2>
+             
+                <h3>Interno</h3>
+               
+
+                <p> O interno é utilizado para funções específicas de uma página,  um pouco mais utilizado do que o inline, mas possuí suas limitações. Sua incorporação deve ser feita utilizando uma tag 	&lt;script&gt; e fechamento com &lt;/script&gt; entre as tags do &lt;head&gt; ou &lt;body&gt; </p>
+
+                
+                <img src="imgs/printjs.png" alt="">
+              
+                <h3>Externo</h3>
+            
+
+                <p> O externo é o mais recomendado e mais utilizado, pois a partir dele você possuí toda uma liberdade para escrever seu código em um documento próprio para ele. Assim como o CSS, é criado um "link" para realizar essa inserção. </p>
+
+                <img src="./imgs/pop.png" alt="js-externo">
+
+        </div>
+
+        <div class="js_sintax">
+
+            <h2 id="sintax"> Sintaxe </h2>
+
+            <p> A sintaxe é nada mais do que como escrevemos as instruções que devem ser seguidas pelo programa que está sendo feito, no javascript a sintaxe é bastante semelhante com a linguagem C e Java. </p>
+
+            <h3>
+
+                Variáveis
+
+            </h3>
+
+            <p>
+
+                É utilizado as palavras-chaves, "var", "let", "const":
+
+            </p>
+
+            
+
+
+        </div>
 
     </main>
 
