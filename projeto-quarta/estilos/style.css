@@ -68,19 +68,13 @@ a:hover {
 h1 {
 
     margin-top: 100px;
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     font-size: 90px;
     text-align: center;
     font-weight: 600;
 
 }
-h2 {
 
-    text-align: center;
-    font-family: 'Kanit';
-    
-
-}
 .nomes_int {
 
     text-align: center;
@@ -92,12 +86,19 @@ h2 {
 .nomes_int > p {
 
 
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     font-size: 26px;
     padding-top: 5px;
 
 }
 
+.title_ini {
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+
+}
 
 button {
 
@@ -105,15 +106,150 @@ button {
     color: rgb(252, 220, 0);
     font-size: 25px;
     font-weight: 700;
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     border-radius: 35px;
     width: 300px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 100px;
+    margin-top: 50px;
     cursor: pointer;
+
+}
+
+.js_def {
+
+    margin-top: 50px
+
+}
+
+.js_def > h2 {
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.js_def > p {
+
+    text-align: justify;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-indent: 30px;
+
+}
+
+.js_def {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+
+}
+
+.js_surg {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #000;
+
+}
+
+.js_surg > h2 {
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.js_surg > p {
+
+    text-align: justify;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-indent: 30px;
+
+}
+
+.js_pop {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #000;
+
+}
+
+.js_pop > h2 {
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.js_pop > p {
+
+    text-align: justify;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-indent: 30px;
+
+}
+
+.js_ins {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #000;
+
+}
+
+.js_ins > h2 {
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+
+.js_ins > p {
+
+    text-align: justify;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-indent: 30px;
+
+}
+
+.pop_confirm {
+
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+
+}
+
+.pop_confirm input {
+
+   background-color: #000;
+   color: rgb(252, 220, 0);
+   font-weight: 600;
+   width: 290px;
+   height: 30px;
+   border-radius: 35px;
+   cursor: pointer;
 
 }
 
