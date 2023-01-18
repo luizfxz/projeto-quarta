@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <script type="text/javascript" src="javascript/first_topic.js"></script>
     <script type="text/javascript" src="javascript/confirmbox.js"></script>
-    <title>Document</title>
+    <script src="javascript/scroll.js"></script>
+    <link rel="shortcut icon" href="imgs/js-icon.png" type="image/x-icon">
+    
+
+    <title> JavaScript </title>
 </head>
 <body>
     
@@ -60,7 +63,7 @@
         <h2 class="title_ini">Prontos para aprender JavaScript?</h2>
 
 
-        <button> Iniciar apresentação!</button>
+        <a href="#def" class="link_button"><button> Iniciar apresentação!</button></a>
 
 
         <div class="js_def">
@@ -221,7 +224,19 @@
 
                 </form>
 
+                
+               
             </div>
+
+            <a href="" OnClick="mensagem()">Link comum</a> 
+
+            <script>
+
+                function mensagem() {
+                window.alert("Você clicou neste campo");
+                }
+
+            </script>
 
         </div>
 
@@ -232,7 +247,7 @@
                 <h3>Interno</h3>
                
 
-                <p> O interno é utilizado para funções específicas de uma página,  um pouco mais utilizado do que o inline, mas possuí suas limitações. Sua incorporação deve ser feita utilizando uma tag 	&lt;script&gt; e fechamento com &lt;/script&gt; entre as tags do &lt;head&gt; ou &lt;body&gt; </p>
+                <p> O interno é utilizado para funções específicas de uma página, mas possuí suas limitações. Sua incorporação deve ser feita utilizando uma tag 	&lt;script&gt; e fechamento com &lt;/script&gt; entre as tags do &lt;head&gt; ou &lt;body&gt; </p>
 
                 
                 <img src="imgs/printjs.png" alt="">
@@ -250,7 +265,7 @@
 
             <h2 id="sintax"> Sintaxe </h2>
 
-            <p> A sintaxe é nada mais do que como escrevemos as instruções que devem ser seguidas pelo programa que está sendo feito, no javascript a sintaxe é bastante semelhante com a linguagem C e Java. </p>
+            <p> • A sintaxe é nada mais do que como escrevemos as instruções que devem ser seguidas pelo programa que está sendo feito, no javascript a sintaxe é bastante semelhante com a linguagem C e Java. </p>
 
             <h3>
 
@@ -260,12 +275,262 @@
 
             <p>
 
-                É utilizado as palavras-chaves, "var", "let", "const":
+                • É utilizado as palavras-chaves, "var", "let", "const", como identificador do JS é necessário que os nomes sigam um padrão começando por uma letra, underline ou cifrão, e o JS é case-sensitive.
 
             </p>
 
-            
+            <p>
 
+                • Onde "var" é uma variável iniciada com algum valor.
+
+            </p>
+
+            <p>
+
+                • O "let" é utilizada quando é necessário uma variável para determinado bloco do código.
+
+            </p>
+
+            <p>
+
+                • O "const" é uma variável somente para leitura, seu valor não é alterado.
+
+            </p>
+
+            <img src="imgs/sintax.png" alt="">
+
+            <h3> Estrutura de condição  </h3>
+
+            <p>
+
+                • Uma estrutura que vai direcionar o fluxo de controle do programa, ou seja, dependendo da condição ou valor passado, algo será executado. E se a condição for falsa ele vai para o bloco do else.
+
+            </p>
+
+            <img src="imgs/conditional.png" alt="">
+
+            <h3> Switch </h3>
+
+            <p>
+
+                O switch verifica o valor da variável, e caso a condição seja verdadeira o bloco de código será executado.
+            </p>
+
+            <img src="imgs/switch.png" alt="">
+
+            <h3> Estrutura para Loops </h3>
+            
+            <p>
+
+                Uma estrutura de código que executará um bloco repetidamente até que atinja uma determinada condição.
+
+            </p>
+
+            <img src="imgs/for.png" alt="">
+
+            <h3> While </h3>
+
+            <p> 
+
+                Executa um conjunto de ações enquanto aquela condição for verdadeira.
+
+            </p>
+
+            <img src="imgs/while.png" alt="">
+
+            <h3> Do-while </h3>
+
+            <p>
+
+                Executa um bloco de ações até que a condição seja falsa.
+
+            </p>
+
+            <img src="imgs/do-while.png" alt="">
+
+            <h3> Arrays </h3>
+
+            <p>
+
+                Um objeto que representa um conjunto ordenado de valores numerados. 
+
+            </p>
+
+            <img src="imgs/arryas.png" alt="">
+
+            <h3> Funções </h3>
+
+            <p>
+
+                Uma função é um objeto que tem um código executável associado a ele, que pode ser executado em qualquer lugar do programa.
+
+            </p>
+
+            <img src="imgs/funcao.png" alt="">
+
+            <h3> Operadores Aritméticos </h3>
+
+            <table>
+
+                <tr>
+
+                    <td>Operador</td>
+
+                    <td>Descrição</td>
+
+                </tr>
+
+                <tr>
+
+                    <td> + </td>
+
+                    <td>Soma valores </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> - </td>
+
+                    <td> Subtrai valores </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> * </td>
+
+                    <td> Multiplica valores </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> / </td>
+
+                    <td>Divide valores </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> % </td>
+
+                    <td>Resto da divisão </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> ++ </td>
+
+                    <td> Incremento </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> -- </td>
+
+                    <td>Decremento </td>
+
+                </tr>
+
+
+
+            </table>
+
+            <h3> Operadores de comparação </h3>
+
+            <table>
+
+                <tr>
+
+                    <td>Operador</td>
+
+                    <td>Descrição</td>
+
+                </tr>
+
+                <tr>
+
+                    <td> > </td>
+
+                    <td> Maior que </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> < </td>
+
+                    <td> Menor que </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> >= </td>
+
+                    <td> Maior ou igual a </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> <= </td>
+
+                    <td> Menor ou igual a </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> == </td>
+
+                    <td> Igual a </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> != </td>
+
+                    <td> Diferente de </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> ===  </td>
+
+                    <td> Idêntico a </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> !==  </td>
+
+                    <td> Não idêntico a </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> &&  </td>
+
+                    <td> E/and </td>
+
+                </tr>
+
+                <tr>
+
+                    <td> ||  </td>
+
+                    <td> Ou/Or </td>
+
+                </tr>
 
         </div>
 
